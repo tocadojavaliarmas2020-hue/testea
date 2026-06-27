@@ -1,0 +1,80 @@
+{
+  "name": "ChecklistGeral",
+  "type": "object",
+  "properties": {
+    "nome_cliente": {
+      "type": "string",
+      "title": "Nome do Cliente"
+    },
+    "cnh_rg": {
+      "type": "boolean",
+      "default": false
+    },
+    "comprovante_renda": {
+      "type": "boolean",
+      "default": false
+    },
+    "residencia_atual": {
+      "type": "boolean",
+      "default": false
+    },
+    "residencia_5_anos": {
+      "type": "boolean",
+      "default": false
+    },
+    "declaracao_residencia": {
+      "type": "boolean",
+      "default": false
+    },
+    "laudo_psicologico": {
+      "type": "boolean",
+      "default": false
+    },
+    "laudo_tecnico": {
+      "type": "boolean",
+      "default": false
+    },
+    "foto_3x4": {
+      "type": "boolean",
+      "default": false
+    },
+    "conta_govbr": {
+      "type": "boolean",
+      "default": false
+    },
+    "senha_govbr": {
+      "type": "boolean",
+      "default": false
+    },
+    "assinatura_digital_govbr": {
+      "type": "boolean",
+      "default": false
+    },
+    "filiacao_clube": {
+      "type": "boolean",
+      "default": false
+    },
+    "atividade_caca": {
+      "type": "boolean",
+      "default": false
+    },
+    "car_cadastro_ambiental": {
+      "type": "boolean",
+      "default": false
+    },
+    "resultado": {
+      "type": "string",
+      "enum": [
+        "COMPLETO",
+        "FALTANDO DOCUMENTOS"
+      ],
+      "default": "FALTANDO DOCUMENTOS"
+    },
+    "data_criacao": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nome_cliente"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Atirador",
+  "type": "object",
+  "properties": {
+    "nome_completo": {
+      "type": "string",
+      "title": "Nome Completo"
+    },
+    "telefone": {
+      "type": "string",
+      "title": "Telefone"
+    },
+    "data_cadastro": {
+      "type": "string",
+      "title": "Data de Cadastro"
+    }
+  },
+  "required": [
+    "nome_completo"
+  ]
+}

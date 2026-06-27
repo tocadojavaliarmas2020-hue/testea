@@ -1,0 +1,84 @@
+{
+  "name": "ChecklistCR",
+  "type": "object",
+  "properties": {
+    "nome_cliente": {
+      "type": "string",
+      "title": "Nome do Cliente"
+    },
+    "cnh_cpf_rg": {
+      "type": "boolean",
+      "default": false
+    },
+    "renda": {
+      "type": "boolean",
+      "default": false
+    },
+    "residencia_atual": {
+      "type": "boolean",
+      "default": false
+    },
+    "declaracao_5_anos": {
+      "type": "boolean",
+      "default": false
+    },
+    "declaracao_residencia": {
+      "type": "boolean",
+      "default": false
+    },
+    "eleitoral": {
+      "type": "boolean",
+      "default": false
+    },
+    "pcpr_federal": {
+      "type": "boolean",
+      "default": false
+    },
+    "forum": {
+      "type": "boolean",
+      "default": false
+    },
+    "militar": {
+      "type": "boolean",
+      "default": false
+    },
+    "dsa": {
+      "type": "boolean",
+      "default": false
+    },
+    "filiacao": {
+      "type": "boolean",
+      "default": false
+    },
+    "compromisso_hab": {
+      "type": "boolean",
+      "default": false
+    },
+    "pisco": {
+      "type": "boolean",
+      "default": false
+    },
+    "tiro": {
+      "type": "boolean",
+      "default": false
+    },
+    "caca_permissao": {
+      "type": "boolean",
+      "default": false
+    },
+    "resultado": {
+      "type": "string",
+      "enum": [
+        "DOCUMENTA\u00c7\u00c3O COMPLETA",
+        "FALTANDO ITENS"
+      ],
+      "default": "FALTANDO ITENS"
+    },
+    "data_criacao": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nome_cliente"
+  ]
+}
